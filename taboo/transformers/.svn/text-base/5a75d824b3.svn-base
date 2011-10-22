@@ -1,0 +1,948 @@
+
+DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"
+
+
+c - square of a number being defined using #define - Stack Overflow
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Stack Exchange
+
+
+
+
+
+
+log in
+|
+careers
+|
+
+
+chat
+|
+meta
+|
+about
+|
+faq
+
+
+
+
+
+
+
+
+
+
+
+
+Stack Overflow
+
+
+
+
+Questions
+Tags
+Users
+Badges
+Unanswered
+
+
+
+
+
+Ask Question
+
+
+
+
+
+
+
+square of a number being defined using #define
+
+
+
+
+
+
+
+
+
+
+up vote
+4
+down vote
+favorite
+2
+
+
+
+
+
+Hi,
+I was just going through certain code's which are frequently asked in Interview's. I came up with certain doubts, if anyone can help me regarding this?
+I am totally confused on this now, 
+#include&lt;stdio.h&gt;
+#include&lt;conio.h&gt;
+#define square(x) x*x
+
+main()
+{
+      int i,j;
+      i=4/square(4);
+      j=64/square(4);
+      printf("\n %d",i);
+      printf("\n %d",j);
+      printf("\n %d",square(4));
+      getch();
+}
+
+Output is :
+ 4
+ 64
+ 16
+
+I am wondering, why did square(4) return 1 when i divided it? i mean how can i get the value 4 and 64 when i divide it but when used directly i get 16!!?
+
+
+c interview-questions
+
+
+
+
+link|edit|flag
+
+
+asked Sep 15 '10 at 15:24Nagaraj Tantri21619
+
+100% accept rate
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Just to note that #define square(x) x*x is a clasic C baddy. Try a loop with square(x++); &ndash;&nbsp;Jaydee Sep 15 '10 at 15:33
+
+
+
+
+4
+
+
+&nbsp;
+
+
+If you really want to confuse yourself and you haven&#39;t read any of the answers yet, try replacing square(4) everywhere with square(3+1). &ndash;&nbsp;JeremyP Sep 15 '10 at 15:40
+
+
+
+This was a simple precedence problem. &ndash;&nbsp;fahad Oct 8 '10 at 21:42
+
+
+
+
+
+
+
+
+
+
+
+
+11 Answers
+
+active
+oldest
+votes
+
+
+
+
+
+
+
+
+
+
+up vote
+18
+down vote
+accepted
+
+
+
+square is under-parenthesized: it expands textually, so
+#define square(x) x*x
+   ...
+i=4/square(4);
+
+means
+i=4/4*4;
+
+which groups as (4/4) * 4.  To fix, add parentheses:
+#define square(x) ((x)*(x))
+
+Still a very iffy #define as it evaluates x twice, so square(somefun()) calls the function twice and does not therefore necessarily compute a square but rather the product of the two successive calls, of course;-).
+
+
+
+
+link|edit|flag
+
+
+answered Sep 15 '10 at 15:28Alex Martelli152k6144407
+
+
+
+
+
+
+
+
+
+
+
+
+
+@Alex yea.. got it.. was getting mad over it..  &ndash;&nbsp;Nagaraj Tantri Sep 15 '10 at 15:47
+
+
+
++1 for square(somefun()). The usual observation in that case is about side effect done twice, but if you imagine square(rand()) you are getting the product of two random numbers, not the square of a single random number. &ndash;&nbsp;RBerteig Sep 15 '10 at 18:42
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+up vote
+3
+down vote
+
+
+
+When you write i=4/square(4), the preprocessor expands that to i = 4 / 4 * 4.
+Because C groups operations from left to right, the compiler interprets that as i = (4 / 4) * 4, which is equivalent to 1 * 4.
+You need to add parentheses, like this:
+#define square(x) ((x)*(x))
+
+This way, i=4/square(4) turns into i = 4 / ((4) * (4)).
+You need the additional parentheses around x in case you write square(1 + 1), which would otherwise turn into 1 + 1 * 1 + 1, which is evaluated as 1 + (1 * 1) + 1, or 3.
+
+
+
+
+link|edit|flag
+
+
+answered Sep 15 '10 at 15:28SLaks&#9830;115k11129251
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+up vote
+3
+down vote
+
+
+
+i=4/square(4);
+
+expands to 
+i=4/4*4; 
+
+which equivalent to
+i=(4/4)*4;
+
+
+
+
+
+link|edit|flag
+
+
+answered Sep 15 '10 at 15:28Vladimir27.6k41940
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+up vote
+2
+down vote
+
+
+
+That's because the compiler replaces it with:
+i=4/4*4; 
+j=64/4*4;
+
+i = (4/4)*4 = 1*4 = 4.
+j = (64/4)*4 = 16*4 = 64.
+
+
+
+
+link|edit|flag
+
+
+answered Sep 15 '10 at 15:31rursw11,281313
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+up vote
+1
+down vote
+
+
+
+Operator precedence is hurting you.
+The macro is expanded by the pre-processor such that 
+  i=4/4*4;
+  j=64/4*4;
+
+which is equivalent to:
+  i=(4/4)*4;
+  j=(64/4)*4;
+
+
+
+
+
+link|edit|flag
+
+
+answered Sep 15 '10 at 15:28Rowland Shaw10.3k11028
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+up vote
+1
+down vote
+
+
+
+j = 4/square(4) == 4/4*4 == 1*4 == 4
+
+
+
+
+link|edit|flag
+
+
+answered Sep 15 '10 at 15:28a1ex074,6851411
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+up vote
+0
+down vote
+
+
+
+Manually expand the macro in the code, and it will be clear. That is, replace all the square(x) with exactly x*x, in particular don't add any parentheses.
+
+
+
+
+link|edit|flag
+
+
+answered Sep 15 '10 at 15:28Geoff Reedy5,063820
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+up vote
+0
+down vote
+
+
+
+define is just a text macro
+main()
+{
+      int i,j;
+      i=4/ 4 * 4;  // 1 * 4
+      j=64/4 * 4; // 16 * 4
+      printf("\n %d",i);
+      printf("\n %d",j);
+      printf("\n %d",square(4));
+      getch();
+}
+
+
+
+
+
+link|edit|flag
+
+
+answered Sep 15 '10 at 15:29Tim Hoolihan3,261217
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+up vote
+0
+down vote
+
+
+
+It's a macro! So it returns exactly what it substitutes.
+i = 4/4*4;   Which is 4...
+j = 64/4*4;   Which is 16...
+
+Try this for your macro:
+#define square(x) ((x)*(x))
+
+
+
+
+
+link|edit|flag
+
+
+answered Sep 15 '10 at 15:29Starkey4,3591619
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+up vote
+0
+down vote
+
+
+
+Because of operator precedence in the expression after the preprocessor - you'll need to write 
+#define square(x) (x*x)
+
+
+
+
+
+link|edit|flag
+
+
+answered Sep 15 '10 at 15:29Ivo1,416210
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+up vote
+0
+down vote
+
+
+
+As the other answers say, you're getting burned by operator precedence.  Change your square macro to this:
+#define square(x) (x*x)
+
+and it'll work the way you expect.
+
+
+
+
+link|edit|flag
+
+
+answered Sep 15 '10 at 15:29paleozogt542115
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Your Answer
+
+
+
+
+
+
+
+&nbsp;
+draft saved
+
+
+
+
+
+
+
+
+
+
+log in
+
+
+
+or
+
+
+
+
+Name
+
+
+
+Email
+
+never shown
+
+
+Home Page
+
+
+
+
+
+
+
+
+
+        
+        Not the answer you're looking for? 
+        
+        Browse other questions tagged c interview-questions 
+        
+        or ask your own question.
+        
+    
+
+
+
+
+Hello World!
+
+This is a collaboratively edited question and answer site for professional and enthusiast programmers. It's 100% free, no registration required.
+about &raquo;&nbsp;&nbsp;&nbsp;faq &raquo;
+
+
+
+tagged
+
+c&nbsp;&times;&nbsp;26278
+interview-questions&nbsp;&times;&nbsp;1268
+
+asked
+4 months ago
+viewed
+211 times
+latest activity
+4 months ago
+
+
+
+
+
+
+
+
+Related
+
+
+how many ways are there to see if a number is even, and which one is the fastest and clearest?
+
+
+Swap bits in a number in C.
+
+
+Using notes during an interview?
+
+
+size of a datatype without using sizeof
+
+
+How to write program during compiling?
+
+
+C: Looping without using looping statements or recursion
+
+
+Which of the following elements can be adjusted when using the processmodel element of the machine.config file?
+
+
+Preprocessing doubts in C.
+
+
+Find the longest repeating string and the number of times it repeats in a given string
+
+
+convert big endian to little endian in C [without using provided func]
+
+
+C program to remove repeated char from a string
+
+
+How many total gifts in the twelve days of christmas if we extend 12 to any number?
+
+
+Which loop configuration will take more time to run?
+
+
+checking whether 4 points in a plane define a square ??
+
+
+An interview question
+
+
+c interview question
+
+
+Interview Question-Concatenate two Strings without using strcat in C
+
+
+Check if a number is non zero using bitwise operators in C.
+
+
+Check if a number x is positive (x&gt;0) by ONLY using bitwise operators in C.
+
+
+Write a function which swaps two int* in c and also write call to that function.
+
+
+Using #define to define and #if defined to see if it is defined
+
+
+to find which number is repeated
+
+
+Odd C interview question
+
+
+An interview question of Microsoft about finding pair of elements from array whose sum equally a given number
+
+
+square numbers given in an sequence
+
+
+
+
+
+question feed
+
+
+
+
+
+lang-c
+
+
+
+
+
+about |
+                
+                faq |
+                new blog |
+                
+                chat |
+                
+                data |
+                podcast |
+                legal |
+                advertising info |
+                contact us
+
+                 | feedback always welcome
+
+&#9632;&nbsp;stackoverflow.com&nbsp; 
+                        &#9632;&nbsp;api/apps&nbsp; 
+                        &#9632;&nbsp;careers&nbsp; 
+                        &#9632;&nbsp;serverfault.com&nbsp; 
+                        &#9632;&nbsp;superuser.com&nbsp; 
+                        &#9632;&nbsp;meta&nbsp; 
+                        &#9632;&nbsp;area&nbsp;51&nbsp; 
+                        &#9632;&nbsp;webapps&nbsp; 
+                        &#9632;&nbsp;gaming&nbsp; 
+                        &#9632;&nbsp;ubuntu&nbsp; 
+                        &#9632;&nbsp;webmasters&nbsp; 
+                        &#9632;&nbsp;cooking&nbsp; 
+                        &#9632;&nbsp;game development&nbsp; 
+                        &#9632;&nbsp;math&nbsp; 
+                        &#9632;&nbsp;photography&nbsp; 
+                        &#9632;&nbsp;stats&nbsp; 
+                        &#9632;&nbsp;tex&nbsp; 
+                        &#9632;&nbsp;english&nbsp; 
+                        &#9632;&nbsp;theoretical cs&nbsp; 
+                        &#9632;&nbsp;programmers&nbsp; 
+                        &#9632;&nbsp;unix&nbsp;
+                        &#9632;&nbsp;apple&nbsp;
+                
+
+
+
+rev 2011.2.11.3
+
+
+                site design / logo &copy; 2011 stack overflow internet services, inc; 
+                user contributions licensed under cc-wiki with attribution required
+
+
+
+
+Stack Overflow works best with JavaScript enabled
+
+
+
+

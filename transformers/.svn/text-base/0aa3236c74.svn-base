@@ -1,0 +1,881 @@
+DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"
+
+
+square root: Definition from Answers.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+On this page
+
+Library
+
+Animal Life
+Business &amp; Finance
+Cars &amp; Vehicles
+Entertainment &amp; Arts
+Food &amp; Cooking
+Health
+History, Politics, Society
+Home &amp; Garden
+Law &amp; Legal Issues
+Literature &amp; Language
+Miscellaneous
+Religion &amp; Spirituality
+Science
+Shopping
+Sports
+Technology
+Travel &amp; Places
+Q &amp; A
+
+
+
+
+
+
+
+&nbsp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+ square root
+
+
+
+
+&nbsp;
+
+
+
+
+
+
+American Heritage Dictionary:
+
+square root
+
+
+
+&nbsp;
+Home &gt; Library &gt; Literature &amp; Language &gt; Dictionary
+
+
+
+ n. A divisor of a quantity that when squared gives the quantity. For example, the square roots of 25 are 5 and −5 because 5 × 5 = 25 and (−5) × (−5) = 25.
+
+  
+        English&#9660;  English&#9660; Deutsch Espa&ntilde;ol Fran&ccedil;ais Italiano Tagalog         Search unanswered questions...           Browse: Unanswered questions | Most-recent questions | Reference library       Enter a question here... Search:													 All sources  Community Q&amp;A  Reference topics           Browse: Unanswered questions | New questions | New answers | Reference library              
+&nbsp;
+
+
+&nbsp;
+
+
+
+Related Videos:
+square root
+
+Top
+
+
+
+
+
+
+
+
+
+Click to Play
+How to Calculate Square Roots of Perfect Squares
+
+
+
+
+Click to Play
+How to Estimate of Square Roots
+
+
+
+
+Click to Play
+How to Apply Estimation of Square Roots
+
+
+
+
+Click to Play
+Learn about Applications of Quadratic Equations using Square Roots
+
+
+View more Science videos
+  
+
+
+&nbsp;
+
+
+
+Random House Word Menu:
+
+categories related to 'square root'
+
+Top
+
+
+Home &gt; Library &gt; Literature &amp; Language &gt; Word Menu Categories
+
+
+
+	For a list of words related to square root, see: 
+	Quantities, Relationships, and Operations - square root: one of two equal factors of a number
+
+  
+
+
+&nbsp;
+
+
+
+Dictionary of Cultural Literacy: Science:
+
+square root
+
+Top
+
+
+Home &gt; Library &gt; Science &gt; Science Dictionary
+
+
+A number that, when multiplied by itself, will result in a given number. The square root of four is two; the square root of one hundred is ten.
+
+The square roots of many numbers, such as three, are irrational numbers.
+  
+
+
+&nbsp;
+
+
+
+  
+
+
+&nbsp;
+
+
+
+Wikipedia on Answers.com:
+
+Square root
+
+Top
+
+
+Home &gt; Library &gt; Miscellaneous &gt; Wikipedia
+
+
+
+
+
+
+
+
+Measured fall time of a small steel sphere falling from various heights. The data is in good agreement with the predicted fall time of , where h is the height and g is the acceleration of gravity.
+
+
+In mathematics, a square root of a number x is a number r such that r2 = x, or, in other words, a number r whose square (the result of multiplying the number by itself, or r&#160;×&#160;r) is x.[1] For example, 4 is a square root of 16 because 4×4=16.
+Every non-negative real number x has a unique non-negative square root, called the principal square root, denoted by a radical sign as . For positive x, the principal square root can also be written in exponent notation, as x1/2. For example, the principal square root of 9 is 3, denoted , because 32 = 3 × 3 = 9 and 3 is non-negative. Although the principal square root of a positive number is only one of its two square roots, the designation "the square root" is often used to refer to the principal square root.
+Every positive number x has two square roots. One of them is , which is positive, and the other , which is negative. Together, these two roots are denoted  (see ± shorthand). Square roots of negative numbers can be discussed within the framework of complex numbers. More generally, square roots can be considered in any context in which a notion of "squaring" of some mathematical objects is defined (including algebras of matrices, endomorphism rings, etc.)
+Square roots of integers that are not perfect squares are always irrational numbers: numbers not expressible as a ratio of two integers (that is to say they cannot be written exactly as m/n, where n and m are integers). This is the theorem Euclid X, 9 almost certainly due to Theaetetus dating back to circa 380 BC.[2] The particular case  is assumed to date back earlier to the Pythagoreans and is traditionally attributed to Hippasus. It is exactly the length of the diagonal of a square with side length 1.
+The term whose root is being considered is known as the radicand. For example, in the expression , ab + 2 is the radicand. The radicand is the number or expression underneath the radical sign.
+
+
+
+
+Contents
+
+
+1 Properties
+2 Computation
+3 Square roots of negative and complex numbers
+
+3.1 Square root of an imaginary number
+3.2 Principal square root of a complex number
+3.3 Algebraic formula
+3.4 Notes
+
+
+4 Square roots of matrices and operators
+5 Principal square roots of the positive integers
+
+5.1 As decimal expansions
+5.2 As expansions in other numeral systems
+5.3 As periodic continued fractions
+
+
+6 Geometric construction of the square root
+7 History
+8 See also
+9 Notes
+10 References
+11 External links
+
+
+
+
+
+ Properties
+
+
+
+
+The graph of the function , made up of half a parabola with a vertical directrix.
+
+
+The principal square root function  (usually just referred to as the "square root function") is a function that maps the set of non-negative real numbers onto itself. In geometrical terms, the square root function maps the area of a square to its side length.
+The square root of x is rational if and only if x is a rational number that can be represented as a ratio of two perfect squares. (See square root of 2 for proofs that this is an irrational number, and quadratic irrational for a proof for all non-square natural numbers.) The square root function maps rational numbers into algebraic numbers (a superset of the rational numbers).
+For all real numbers x
+
+ &#160;&#160;&#160;&#160;(see absolute value)
+
+For all non-negative real numbers x and y,
+
+
+
+and
+
+
+
+The square root function is continuous for all non-negative x and differentiable for all positive x. If f denotes the square-root function, its derivative is given by:
+
+
+
+The Taylor series of √1 + x about x = 0 converges for |x| ≤ 1 and is given by
+
+
+
+which is a special case of a Binomial series.
+ Computation
+Main article: Methods of computing square roots
+Most pocket calculators have a square root key. Computer spreadsheets and other software are also frequently used to calculate square roots. Pocket calculators typically implement good routines to compute the exponential function and the natural logarithm or logarithm, and then compute the square root of a positive real number x using the identity
+
+ or 
+
+The same identity is exploited when computing square roots with logarithm tables or slide rules.
+The most common iterative method of square root calculation by hand is known as the "Babylonian method" or "Heron's method" after the first century Greek philosopher Heron of Alexandria who first described it.[3] The technique is an application of the Newton-Raphson iterative solution method to the function , using the fact that its slope at any point is . [4] It involves a simple algorithm, which results in a number closer to the actual square root each time it is repeated. To find x, the square root of a non-negative real number a:
+
+Start with an arbitrary positive start value x (the closer to the square root of a, the fewer iterations will be needed to achieve the desired precision).
+Replace x by the average between x and a/x, that is: , representing the Newton-Raphson scheme  resulting in ,
+(It is sufficient to take an approximate value of the average to ensure convergence)
+
+Repeat step 2 until x and a/x are as close as desired.
+
+If a is positive, the convergence is "quadratic," which means that in approaching the limit, the number of correct digits roughly doubles in each next iteration. If a = 0, the convergence is only linear.
+Using the identity
+
+
+
+the computation of the square root of a positive number can be reduced to that of a number in the range [1,&#160;4). This simplifies finding a start value for the iterative method that is close to the square root, for which a polynomial or piecewise-linear approximation can be used.
+The time complexity for computing a square root with n digits of precision is equivalent to that of multiplying two n-digit numbers.
+ Square roots of negative and complex numbers
+
+
+
+
+Complex square root
+
+
+
+
+
+
+Second leaf of the complex square root
+
+
+
+
+
+
+Using the Riemann surface of the square root, one can see how the two leaves fit together
+
+
+The square of any positive or negative number is positive, and the square of 0 is 0. Therefore, no negative number can have a real square root. However, it is possible to work with a more inclusive set of numbers, called the complex numbers, that does contain solutions to the square root of a negative number. This is done by introducing a new number, denoted by i (sometimes j, especially in the context of electricity where "i" traditionally represents electric current) and called the imaginary unit, which is defined such that i2&#160;=&#160;−1. Using this notation, we can think of i as the square root of −1, but notice that we also have (−i)2&#160;=&#160;i2&#160;=&#160;−1 and so −i is also a square root of −1. By convention, the principal square root of −1 is i, or more generally, if x is any positive number, then the principal square root of −x is
+
+
+
+The right side (as well as its negative) is indeed a square root of −x, since
+
+
+
+For every non-zero complex number z there exist precisely two numbers w such that w2&#160;=&#160;z: the principal square root of z (defined below), and its negative.
+ Square root of an imaginary number
+
+
+
+
+The square roots of i in the complex plane
+
+
+The square root of i is given by
+
+
+
+This result can be obtained algebraically by finding a and b such that
+
+
+
+or equivalently
+
+
+
+This gives the two simultaneous equations
+
+
+
+with solutions
+
+
+
+The choice of the principal root then gives
+
+
+
+The result can also be obtained by using de Moivre's formula and setting
+
+
+
+which produces
+
+
+
+ Principal square root of a complex number
+To find a definition for the square root that allows us to consistently choose a single value, called the principal value, we start by observing that any complex number x + iy can be viewed as a point in the plane, (x, y), expressed using Cartesian coordinates. The same point may be reinterpreted using polar coordinates as the pair (r, φ), where r ≥ 0 is the distance of the point from the origin, and φ is the angle that the line from the origin to the point makes with the positive real (x) axis. In complex analysis, this value is conventionally written r eiφ. If
+
+
+
+then we define the principal square root of z as follows:
+
+
+
+The principal square root function is thus defined using the nonpositive real axis as a branch cut. The principal square root function is holomorphic everywhere except on the set of non-positive real numbers (on strictly negative reals it isn't even continuous). The above Taylor series for √1 + x remains valid for complex numbers x with |x|&#160;&lt;&#160;1.
+The above can also be expressed in terms of trigonometric functions:
+
+
+
+ Algebraic formula
+When the number is expressed using Cartesian coordinates the following formula can be used for the principal square root:[5][6]
+
+
+
+where the sign of the imaginary part of the root is taken to be same as the sign of the imaginary part of the original number, and
+
+
+
+is the absolute value or modulus of the original number. The real part of the principal value is always non-negative.
+The other square root is simply –1 times the principal square root; in other words, the two square roots of a number sum to 0.
+ Notes
+Because of the discontinuous nature of the square root function in the complex plane, the law √zw = √z√w is in general not true. (Equivalently, the problem occurs because of the freedom in the choice of branch. The chosen branch may or may not yield the equality; in fact, the choice of branch for the square root need not contain the value of √z√w at all, leading to the equality's failure. A similar problem appears with the complex logarithm and the relation log z + log w = log(zw).) Wrongly assuming this law underlies several faulty "proofs", for instance the following one showing that −1&#160;=&#160;1:
+
+
+
+The third equality cannot be justified (see invalid proof). It can be made to hold by changing the meaning of √ so that this no longer represents the principal square root (see above) but selects a branch for the square root that contains (√−1)·(√−1). The left hand side becomes either
+
+
+
+if the branch includes +i or
+
+
+
+if the branch includes −i, while the right hand side becomes
+
+
+
+where the last equality, √1 = −1, is a consequence of the choice of branch in the redefinition of √.
+ Square roots of matrices and operators
+Main article: square root of a matrix
+If A is a positive-definite matrix or operator, then there exists precisely one positive definite matrix or operator B with B2 = A; we then define A1/2 = √A = B. In general matrices may have multiple square roots or even an infinitude of them. For example the 2×2 identity matrix has an infinity of square roots.[7]
+ Principal square roots of the positive integers
+ As decimal expansions
+The square roots of the perfect squares (1, 4, 9, 16, etc.) are integers. In all other cases, the square roots are irrational numbers, and therefore their decimal representations are non-repeating decimals.
+
+
+
+
+
+
+1
+
+
+
+
+1.414213562373095048801688724209698078569671875376948073176679737990732478462
+1&#160;million&#160;digits, 2&#160;million, 5&#160;million, 10&#160;million
+
+
+
+
+1.732050807568877293527446341505872366942805253810380628055806979451933016909
+1&#160;million&#160;digits
+
+
+
+
+2
+
+
+
+
+2.236067977499789696409173668731276235440618359611525724270897245410520925638
+1&#160;million&#160;digits
+
+
+
+
+2.449489742783178098197284074705891391965947480656670128432692567250960377457
+1&#160;million&#160;digits
+
+
+
+
+2.645751311064590590501615753639260425710259183082450180368334459201068823230
+1&#160;million&#160;digits
+
+
+
+
+2.828427124746190097603377448419396157139343750753896146353359475981464956924
+1&#160;million&#160;digits
+
+
+
+
+3
+
+
+
+
+3.162277660168379331998893544432718533719555139325216826857504852792594438639
+1&#160;million&#160;digits
+
+
+
+
+3.316624790355399849114932736670686683927088545589353597058682146116484642609
+
+
+
+
+3.464101615137754587054892683011744733885610507620761256111613958903866033818
+
+
+
+
+3.605551275463989293119221267470495946251296573845246212710453056227166948293
+
+
+
+
+3.741657386773941385583748732316549301756019807778726946303745467320035156307
+
+
+
+
+3.872983346207416885179265399782399610832921705291590826587573766113483091937
+
+
+
+
+4
+
+
+
+
+4.123105625617660549821409855974077025147199225373620434398633573094954346338
+
+
+
+
+4.242640687119285146405066172629094235709015626130844219530039213972197435386
+
+
+
+
+4.358898943540673552236981983859615659137003925232444936890344138159557328203
+
+
+
+
+4.472135954999579392818347337462552470881236719223051448541794490821041851276
+
+
+
+
+Note that if the radicand is not square-free one can simplify, for example ; ;  and .
+ As expansions in other numeral systems
+The square roots of the perfect squares (1, 4, 9, 16, etc.) are integers. In all other cases, the square roots are irrational numbers, and therefore their representations in any standard positional notation system are non-repeating.
+The square roots of small integers are used in both the SHA-1 and SHA-2 hash function designs to provide nothing up my sleeve numbers.
+ As periodic continued fractions
+One of the most intriguing results from the study of irrational numbers as continued fractions was obtained by Joseph Louis Lagrange circa 1780. Lagrange found that the representation of the square root of any non-square positive integer as a continued fraction is periodic. That is, a certain pattern of partial denominators repeats indefinitely in the continued fraction. In a sense these square roots are the very simplest irrational numbers, because they can be represented with a simple repeating pattern of integers.
+
+
+
+
+
+
+[1; 2, 2, ...]
+
+
+
+
+[1; 1, 2, 1, 2, ...]
+
+
+
+
+[2]
+
+
+
+
+[2; 4, 4, ...]
+
+
+
+
+[2; 2, 4, 2, 4, ...]
+
+
+
+
+[2; 1, 1, 1, 4, 1, 1, 1, 4, ...]
+
+
+
+
+[2; 1, 4, 1, 4, ...]
+
+
+
+
+[3]
+
+
+
+
+[3; 6, 6, ...]
+
+
+
+
+[3; 3, 6, 3, 6, ...]
+
+
+
+
+[3; 2, 6, 2, 6, ...]
+
+
+
+
+[3; 1, 1, 1, 1, 6, 1, 1, 1, 1, 6, ...]
+
+
+
+
+[3; 1, 2, 1, 6, 1, 2, 1, 6, ...]
+
+
+
+
+[3; 1, 6, 1, 6, ...]
+
+
+
+
+[4]
+
+
+
+
+[4; 8, 8, ...]
+
+
+
+
+[4; 4, 8, 4, 8, ...]
+
+
+
+
+[4; 2, 1, 3, 1, 2, 8, 2, 1, 3, 1, 2, 8, ...]
+
+
+
+
+[4; 2, 8, 2, 8, ...]
+
+
+
+
+The square bracket notation used above is a sort of mathematical shorthand to conserve space. Written in more traditional notation the simple continued fraction for the square root of 11 – [3; 3, 6, 3, 6, ...] – looks like this:
+
+
+
+where the two-digit pattern {3, 6} repeats over and over and over again in the partial denominators. Since 11 = 32+2, the above is also identical to the following generalized continued fractions:
+
+
+
+ Geometric construction of the square root
+A square root can be constructed with a compass and straightedge. In his Elements, Euclid (fl. 300 BC) gave the construction of the geometric mean of two quantities in two different places: Proposition II.14 and Proposition VI.13. Since the geometric mean of a and b is , one can construct  simply by taking b = 1.
+The construction is also given by Descartes in his La Géométrie, see figure 2 on page 2. However, Descartes made no claim to originality and his audience would have been quite familiar with Euclid.
+Another method of geometric construction uses right triangles and induction:  can, of course, be constructed, and once  has been constructed, the right triangle with 1 and  for its legs has a hypotenuse of . The Spiral of Theodorus is constructed using successive square roots in this manner.
+ History
+The Yale Babylonian Collection YBC 7289 clay tablet was created between 1800 BC and 1600 BC, showing  and  as 1;24,51,10 and 42;25,35 base 60 numbers on a square crossed by two diagonals.[8]
+The Rhind Mathematical Papyrus is a copy from 1650 BC of an even earlier work and shows us how the Egyptians extracted square roots.[9]
+In Ancient India, the knowledge of theoretical and applied aspects of square and square root was at least as old as the Sulba Sutras, dated around 800-500 BC (possibly much earlier)[citation needed]. A method for finding very good approximations to the square roots of 2 and 3 are given in the Baudhayana Sulba Sutra.[10] Aryabhata in the Aryabhatiya (section 2.4), has given a method for finding the square root of numbers having many digits.
+In the Chinese mathematical work Writings on Reckoning, written between 202 BC and 186 BC during the early Han Dynasty, the square root is approximated by using an "excess and deficiency" method, which says to "...combine the excess and deficiency as the divisor; (taking) the deficiency numerator multiplied by the excess denominator and the excess numerator times the deficiency denominator, combine them as the dividend."[11]
+According to historian of mathematics D.E. Smith, Aryabhata's method for finding the square root was first introduced in Europe by Cataneo in 1546.[12]
+The symbol √ for the square root was first used in print in 1525 in Christoph Rudolff's Coss, which was also the first to use the then-new signs '+' and '-'.[13]
+ See also
+
+Cube root
+Integer square root
+Methods of computing square roots
+Nested radical
+Nth root
+Quadratic irrational
+Quadratic residue
+Root of unity
+Solving quadratic equations with continued fractions
+Square (algebra)
+Square root of 2
+Square root of 3
+Square root of 5
+Square root of a matrix
+Square root principle
+
+ Notes
+
+
+
+^ Gelfand, Izrael M.; Shen, Alexander (1993). Algebra (3rd ed.). Birkhäuser. p.&#160;120. ISBN&#160;0-817-63677-3. http://books.google.com/books?id=Z9z7iliyFD0C.&#160;, Extract of page 120
+^ Heath, Sir Thomas L. (1908). The Thirteen Books of The Elements, Vol. 3. Cambridge University Press. p.&#160;3. http://www.archive.org/stream/thirteenbookseu03heibgoog#page/n14/mode/1up.&#160;
+^ Heath, Sir Thomas L. (1921). A History of Greek Mathematics, Vol. 2. Oxford: Clarendon Press. pp.&#160;323–324. http://books.google.com/?id=LOA5AAAAMAAJ&amp;pg=PR323.&#160;
+^ Muller, Jean-Mic (2006). Elementary functions: algorithms and implementation. Springer. pp.&#160;92–93. ISBN&#160;0817643729. http://books.google.com/?id=g3AlWip4R38C&#160;, Chapter 5, p 92
+^ Abramowitz, Miltonn; Stegun, Irene A. (1964). Handbook of mathematical functions with formulas, graphs, and mathematical tables. Courier Dover Publications. p.&#160;17. ISBN&#160;0-486-61272-4. http://books.google.com/books?id=MtU8uP7XMvoC.&#160;, Section 3.7.26, p. 17
+^ Cooke, Roger (2008). Classical algebra: its nature, origins, and uses. John Wiley and Sons. p.&#160;59. ISBN&#160;0-470-25952-3. http://books.google.com/books?id=lUcTsYopfhkC.&#160;, Extract: page 59
+^ Mitchell, Douglas W., "Using Pythagorean triples to generate square roots of I2", Mathematical Gazette 87, November 2003, 499-500.
+^ http://www.math.ubc.ca/~cass/Euclid/ybc/analysis.html
+^ Anglin, W.S. (1994). Mathematics: A Concise History and Philosophy. New York: Springer-Verlag.
+^ Joseph, ch.8.
+^ Dauben, p. 210.
+^ Smith, p. 148.
+^ Manguel, Alberto (2006). "Done on paper: the dual nature of numbers and the page". The Life of Numbers. ISBN&#160;8486882141.&#160;
+
+
+
+ References
+
+Imhausen, Annette (2007). The Mathematics of Egypt, Mesopotamia, China, India, and Islam. Princeton: Princeton University Press. pp.&#160;187–384. ISBN&#160;0691114854.&#160;
+Joseph, George (2000). The Crest of the Peacock. Princeton: Princeton University Press. ISBN&#160;0691006598.&#160;
+Smith, David (1958). History of Mathematics. 2. New York: Dover Publications. ISBN&#160;9780486204307.&#160;
+
+ External links
+
+Algorithms, implementations, and more - Paul Hsieh's square roots webpage
+How to manually find a square root
+
+
+
+
+This entry is from Wikipedia, the leading user-contributed encyclopedia. It may not have been reviewed by professional editors (see full disclaimer)
+
+
+Donate to Wikimedia
+
+
+  
+
+
+&nbsp;
+
+
+
+Best of the Web:
+square root
+
+Top
+
+
+
+
+Some good "square root" pages on the web:
+
+Mathmathworld.wolfram.com&nbsp;
+
+
+
+  
+&nbsp;
+
+
+&nbsp;
+
+Related topics:
+migration length (nucleonics)normalized current (electromagnetism)normalized voltage (electromagnetism)
+
+Related answers:
+Can the square root of a and square root of b equal the square root of A plus B? Read answer...What is the square root of 2 plus the square root of 2 in square root form? Read answer...How do you find the square root of a square root? Read answer...
+
+Help us answer these:
+Square root of 18x divided by the square root of 32?Square root of 50 minus the square root of 18?Square root of 3-2x times square root x-4?
+
+Post a question - any question - to the WikiAnswers community:
+
+
+
+
+
+
+&nbsp;Copyrights:
+
+American Heritage Dictionary. The American Heritage&reg; Dictionary of the English Language, Fourth Edition Copyright &copy; 2007, 2000 by Houghton Mifflin Company. Updated in 2009. Published by Houghton Mifflin Company. All rights reserved.&nbsp; Read  more
+Random House Word Menu. &copy; 2010 Write Brothers Inc. Word Menu is a registered trademark of the Estate of Stephen Glazier.
+	Write Brothers Inc.
+	All rights reserved.&nbsp; Read  more
+Dictionary of Cultural Literacy: Science. The New Dictionary of Cultural Literacy, Third Edition Edited by E.D. Hirsch, Jr., Joseph F. Kett, and James Trefil. Copyright &copy; 2002 by Houghton Mifflin Company. Published by Houghton Mifflin. All rights reserved.&nbsp; Read  more
+Wikipedia on Answers.com. This article is licensed under the Creative Commons Attribution/Share-Alike License. It uses material from the Wikipedia article Square root.&nbsp; Read  more
+
+
+
+
+
+
+
+
+
+Related answers
+
+What is the square root of the square root of the square root of pi?What is the square root of a square root?
+&raquo; More
+
+
+
+Answer these
+
+What are the Squares and square roots in physics?What is the square root of the meter of square?Why is square root called square root?
+&raquo; More
+
+
+Follow us
+
+
+Facebook
+
+Twitter
+
+YouTube
+
+
+
+
+
+
+
+
+
+Mentioned inmigration length (nucleonics)normalized current (electromagnetism)normalized voltage (electromagnetism)quadratic surd (mathematics)root-mean-square error (statistics)speed-length ratio (naval architecture)standard deviationMersenne's law (mechanics)subduplicateradius of gyrationimaginary unitroot mean squarecelerityGraham's law» More» More
+
+
+
+
+
+
+
+   			Site		  Sitemap ReferenceAnswers WikiAnswers VideoAnswers blufr    			Company		  About Jobs Press NASDAQ:ANSW    			Legal		  Terms of Use Privacy Policy IP Issues Disclaimer    			Tools		  1-Click Answers AnswerTips Webmasters Apps/Add-ons    			Community		  Guidelines Reputation Roles Help    			Updates		  Email Watchlist RSS Blog      International Sites English Deutsch Espa&ntilde;ol Fran&ccedil;ais Italiano Tagalog  		Copyright &copy; 2011 Answers Corporation 		      
+
+
+
+
+
+
+
+
+
+ 
+
+

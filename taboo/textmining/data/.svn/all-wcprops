@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/source/taboo/!svn/ver/45/textmining/data
+END
+names_male.txt
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/source/taboo/!svn/ver/36/textmining/data/names_male.txt
+END
+stopwords.txt
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/source/taboo/!svn/ver/45/textmining/data/stopwords.txt
+END
+dictionary.txt
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/source/taboo/!svn/ver/36/textmining/data/dictionary.txt
+END
+names_last.txt
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/source/taboo/!svn/ver/36/textmining/data/names_last.txt
+END
+names_female.txt
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/source/taboo/!svn/ver/36/textmining/data/names_female.txt
+END

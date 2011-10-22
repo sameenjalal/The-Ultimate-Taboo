@@ -1,0 +1,5 @@
+init_easy = ['House', 'Lord of the Rings', 'Lamp', 'Trees', 'Jim Carrey', 'Jennifer Aniston', 'New York City', 'Harry Potter', 'Why so Serious', 'Clouds', 'Computer', 'Dartmouth', 'Luke Skywalker', 'Darth Vader', 'Mike The Situation', 'Snooki']
+
+init_hard = ['Dungeons and Dragons', 'Neopets', 'Mia Hamm', 'Victoria Beckham', 'Zynga', 'The Dark Avenger', 'Kinect', 'Thats all folks', 'Elmer Fudd', 'Yahtzee', 'Sun Chips', 'AMP', 'New York Times']
+
+init_dirty = ['Penis', 'Hermaphrodite', 'Strawberry Kiss', 'Anal', 'Freak in the Sheets', 'Brittany Spears', 'Asexual', 'Sex', 'One Night in Paris', 'Strip Poker']

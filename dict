@@ -1,0 +1,46 @@
+Index: parse_google.py
+===================================================================
+--- parse_google.py	(revision 48)
++++ parse_google.py	(working copy)
+@@ -80,22 +80,20 @@
+ 
+ 
+ 
+-file_list = []
+-
+ #Fetches the HTML contents for a list of URLs
+ def fetch_html_list(url_list):
+ 	file_list[:] = []
+ 	rv_list = [] 
+ 	for url in url_list:
+-		rv_list.append(fetch_html(url)+"\n")
++		rv_list.append(fetch_html(url, file_list)+"\n")
+ 	
+-	return ''.join(rv_list)
++	return ''.join(rv_list), file_list
+ 
+ def textify(url):
+ 	return md5.md5(url).hexdigest()[:10]
+ 
+ #Fetches the HTML for a single URL. Strips away all the script tags and the meta tags. Returns only terminal text.
+-def fetch_html(url):
++def fetch_html(url, file_list):
+ 	html = strip_html(get_html(url))
+ 	s = 'query/'+textify(url)
+ 	file_list.append(s)
+@@ -242,12 +240,12 @@
+ NUM_RESULTS = 8
+ def generate_taboo(word):
+ 	search_urls = google_search_urls(word, NUM_RESULTS)
+-	unicode(fetch_html_list(search_urls)).encode("utf-8")
++	file_str, file_list = fetch_html_list(search_urls)
+ 	return mine_files(file_list,word)
+ 
+-#word = "indiana jones"
++word = "indiana jones"
+ 
+-#print generate_taboo(word)
++print generate_taboo(word)
+ 
+ #print mine_files(['query/a61ac52b32', 'query/0c7b543f48', 'query/466eeca594', 'query/7455b9b734', 'query/b19c2beda9', 'query/dddefdf95a', 'query/c13d8ccf65', 'query/26907d4871', 'query/8b536c54ff', 'query/a7fa48f835', 'query/46bce9fe60', 'query/7c6d947621', 'query/60b6328681', 'query/eaae84aa24', 'query/ecab1adcec', 'query/a9e383ab5f', 'query/81ef7f8575', 'query/13280cfc0e', 'query/e9bc8cb49c', 'query/7547936cff', 'query/b648e3fa0a', 'query/eea76bd4e0', 'query/5e9929fdb0', 'query/2030acd058'],word)
+ 

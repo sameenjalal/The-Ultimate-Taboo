@@ -1,0 +1,568 @@
+DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
+
+
+Square (geometry) - Wikipedia, the free encyclopedia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Square (geometry)
+
+
+
+
+From Wikipedia, the free encyclopedia
+
+
+
+
+
+
+					Jump to: navigation,
+					search
+
+
+
+
+
+
+
+
+This article does not cite any references or sources.
+Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed. (December 2010)
+
+
+
+
+Square
+
+
+
+A square is a regular quadrilateral.
+
+
+Families
+2-hypercube,
+2-orthoplex
+
+
+Edges and vertices
+4
+
+
+Schläfli symbol
+{4}
+
+
+Coxeter–Dynkin diagrams
+
+
+
+Symmetry group
+Dihedral (D4)
+
+
+Area
+(with t=edge length)
+t2
+
+
+Internal angle
+(degrees)
+90°
+
+
+Properties
+convex, cyclic, equilateral, isogonal, isotoxal
+
+
+In geometry, a square is a regular quadrilateral. This means that it has four equal sides and four equal angles (90 degree angles, or right angles). A square with vertices ABCD would be denoted  ABCD.
+
+
+
+
+Contents
+
+
+1 Perimeter and area
+2 Standard coordinates
+3 Equations
+4 Properties
+5 Other facts
+6 Non-Euclidean geometry
+7 Graphs
+8 See also
+9 External links
+
+
+
+
+
+[edit] Perimeter and area
+
+
+
+
+The area of a square is the product of the length of its sides.
+
+
+The perimeter of a square whose sides have length t is
+
+
+
+and the area is
+
+
+
+In classical times, the second power was described in terms of the area of a square, as in the above formula. This led to the use of the term square to mean raising to the second power.
+[edit] Standard coordinates
+The coordinates for the vertices of a square centered at the origin and with side length 2 are (±1,&#160;±1), while the interior of the same consists of all points (x0, x1) with −1&#160;&lt;&#160;xi&#160;&lt;&#160;1.
+
+
+
+
+Construction of a square using a compass and straightedge.
+
+
+[edit] Equations
+The equation max(x2,y2) = 1 describes a square. This means "x2 or y2, whichever is larger, equals 1." The circumradius of this square is .
+[edit] Properties
+A square is both a rhombus (equal sides) and a rectangle (equal angles) and therefore has all the properties of both these shapes, namely:
+
+The diagonals of a square bisect each other and meet at 90 degrees.
+The diagonals of a square bisect its angles.
+The diagonals of a square are perpendicular.
+Opposite sides of a square are both parallel and equal.
+All four angles of a square are equal. (Each is 360/4 = 90 degrees, so every angle of a square is a right angle.)
+The diagonals of a square are equal.
+
+[edit] Other facts
+
+If the diagonals of a rhombus are equal, then that rhombus must be a square. The diagonals of a square are  (about 1.414) times the length of a side of the square. This value, known as Pythagoras’ constant, was the first number proven to be irrational.
+A square can also be defined as a rectangle with all sides equal, or a rhombus with all angles equal, or a parallelogram with equal diagonals that bisect the angles.
+If a figure is both a rectangle (right angles) and a rhombus (equal edge lengths), then it is a square.
+If a circle is circumscribed around a square, the area of the circle is π / 2 (about 1.57) times the area of the square.
+If a circle is inscribed in the square, the area of the circle is π / 4 (about 0.79) times the area of the square.
+A square has a larger area than any other quadrilateral with the same perimeter ([1]).
+A square tiling is one of three regular tilings of the plane (the others are the equilateral triangle and the regular hexagon).
+The square is in two families of polytopes in two dimensions: hypercube and the cross polytope. The Schläfli symbol for the square is&#160;{4}.
+The square is a highly symmetric object (in Goldman geometry). There are four lines of reflectional symmetry and it has rotational symmetry of order 4 (through 90°, 180° and 270°). Its symmetry group is the dihedral group&#160;D4.
+
+[edit] Non-Euclidean geometry
+In non-euclidean geometry, squares are more generally polygons with 4 equal sides and equal angles.
+In spherical geometry, a square is a polygon whose edges are great circle arcs of equal distance, which meet at equal angles. Unlike the square of plane geometry, the angles of such a square are larger than a right angle.
+In hyperbolic geometry, squares with right angles do not exist. Rather, squares in hyperbolic geometry have angles of less than right angles. Larger squares have smaller angles.
+Examples:
+
+
+
+Six squares can tile the sphere with 3 squares around each vertex and 120 degree internal angles. This is called a spherical cube. The Schläfli symbol is&#160;{4,3}.
+
+Squares can tile the Euclidean plane with 4 around each vertex, with each square having an internal angle of 90 degrees. The Schläfli symbol is {4,4}.
+
+Squares can tile the hyperbolic plane with 5 around each vertex, with each square having 72 degree internal angles. The Schläfli symbol is&#160;{4,5}.
+
+
+[edit] Graphs
+The K4 complete graph is often drawn as a square with all 6 edges connected. This graph also represents an orthographic projection of the 4 vertices and 6 edges of the regular 3-simplex (tetrahedron).
+
+
+
+3-simplex (3D)
+
+
+[edit] See also
+
+Cube
+Pythagorean theorem
+Square lattice
+Unit square
+Squircle
+Hypercubes family
+
+Point (geometry) - -
+Line (geometry) - {}
+Square - {4}
+Cube - {4,3}
+Tesseract - {4,3,3}
+Penteract - {4,3,3,3}
+Hexeract - {4,3,3,3,3}
+Hepteract - {4,3,3,3,3,3}
+Octeract - {4,3,3,3,3,3,3}
+Enneract - {4,3,3,3,3,3,3,3}
+Dekeract - {4,3,3,3,3,3,3,3,3}
+Hendekeract - {4,3,3,3,3,3,3,3,3,3}
+Dodekeract - {4,3,3,3,3,3,3,3,3,3,3}
+n-eract
+
+
+
+[edit] External links
+
+
+
+Wikimedia Commons has media related to: Squares (geometry)
+
+
+
+Animated course (Construction, Circumference, Area)
+Weisstein, Eric W., "Square" from MathWorld.
+Definition and properties of a square With interactive applet
+Animated applet illustrating the area of a square
+
+
+
+
+
+
+v · d · ePolygons
+
+
+
+
+
+Listed by number of sides
+
+
+
+
+
+1–10 sides
+
+Henagon (Monogon)&#160;· Digon&#160;· Triangle (Trigon)&#160;· Quadrilateral (Tetragon)&#160;· Pentagon&#160;· Hexagon&#160;· Heptagon&#160;· Octagon&#160;· Nonagon (Enneagon)&#160;· Decagon
+
+
+
+
+
+
+11–20 sides
+
+Hendecagon&#160;· Dodecagon&#160;· Triskaidecagon&#160;· Tetradecagon&#160;· Pentadecagon&#160;· Hexadecagon&#160;· Heptadecagon&#160;· Octadecagon&#160;· Nonadecagon (Enneadecagon)&#160;· Icosagon
+
+
+
+
+
+
+Others
+
+Apeirogon
+
+
+
+
+
+
+Star polygons
+
+Pentagram&#160;· Hexagram&#160;· Heptagram&#160;· Octagram&#160;· Enneagram&#160;· Decagram&#160;· Hendecagram&#160;· Dodecagram
+
+
+
+
+
+
+
+
+
+Retrieved from "http://en.wikipedia.org/wiki/Square_(geometry)"
+
+
+Categories: Geometric shapes | QuadrilateralsHidden categories: Articles lacking sources from December 2010 | All articles lacking sources 
+
+
+
+
+
+
+
+
+
+Personal tools
+
+Log in / create account
+
+
+
+
+
+
+Namespaces
+
+Article
+Discussion
+
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+Edit
+View history
+
+
+
+
+
+Actions
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Navigation
+
+
+Main page
+Contents
+Featured content
+Current events
+Random article
+Donate to Wikipedia
+
+
+
+
+
+
+
+
+Interaction
+
+
+Help
+About Wikipedia
+Community portal
+Recent changes
+Contact Wikipedia
+
+
+
+
+
+
+Toolbox
+
+
+What links here
+Related changes
+Upload file
+Special pages
+Permanent link
+Cite this page 
+
+
+
+
+
+Print/export
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+
+Languages
+
+
+Afrikaans
+Alemannisch
+العربية
+Aragonés
+Asturianu
+Aymar aru
+Azərbaycanca
+বাংলা
+Беларуская
+Беларуская (тарашкевіца)
+Bosanski
+Brezhoneg
+Български
+Català
+Česky
+Cymraeg
+Dansk
+Deutsch
+Eesti
+Ελληνικά
+Español
+Esperanto
+Euskara
+فارسی
+Français
+Gaeilge
+Galego
+贛語
+한국어
+हिन्दी
+Hornjoserbsce
+Hrvatski
+Ido
+Bahasa Indonesia
+Íslenska
+Italiano
+עברית
+ქართული
+Kiswahili
+Kreyòl ayisyen
+Kurdî
+ລາວ
+Latina
+Latviešu
+Lietuvių
+Limburgs
+Magyar
+Македонски
+മലയാളം
+मराठी
+مصرى
+Bahasa Melayu
+Монгол
+Nederlands
+日本語
+‪Norsk (bokmål)‬
+‪Norsk (nynorsk)‬
+O'zbek
+پنجابی
+ភាសាខ្មែរ
+Piemontèis
+Polski
+Português
+Qırımtatarca
+Română
+Runa Simi
+Русский
+Scots
+Sicilianu
+Simple English
+Slovenčina
+Slovenščina
+Ślůnski
+Soranî / کوردی
+Српски / Srpski
+Srpskohrvatski / Српскохрватски
+Basa Sunda
+Suomi
+Svenska
+Tagalog
+தமிழ்
+ไทย
+Türkçe
+Українська
+اردو
+Tiếng Việt
+West-Vlams
+Winaray
+ייִדיש
+粵語
+Žemaitėška
+中文
+
+
+
+
+
+
+
+
+
+ This page was last modified on 9 February 2011 at 14:40.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.
+See Terms of Use for details.
+Wikipedia&reg; is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.Contact us
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

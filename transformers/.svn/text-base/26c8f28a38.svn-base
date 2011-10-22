@@ -1,0 +1,478 @@
+DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
+
+
+Root mean square - Wikipedia, the free encyclopedia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Root mean square
+
+
+
+
+From Wikipedia, the free encyclopedia
+
+
+
+
+
+
+					Jump to: navigation,
+					search
+
+
+
+
+
+
+
+
+This article needs additional citations for verification.
+Please help improve this article by adding reliable references. Unsourced material may be challenged and removed. (March 2010)
+
+
+In mathematics, the root mean square (abbreviated RMS or rms), also known as the quadratic mean, is a statistical measure of the magnitude of a varying quantity. It is especially useful when variates are positive and negative, e.g., sinusoids. RMS is used in various fields, including electrical engineering; one of the more prominent uses of RMS is in the field of signal amplifiers.
+It can be calculated for a series of discrete values or for a continuously varying function. The name comes from the fact that it is the square root of the mean of the squares of the values. It is a special case of the generalized mean with the exponent p&#160;=&#160;2.
+
+
+
+
+Contents
+
+
+1 Definition
+2 RMS of common waveforms
+3 Uses
+
+3.1 Average electrical power
+
+3.1.1 Amplifier power efficiency
+
+
+3.2 Root mean square velocity
+3.3 Root mean square error
+
+
+4 RMS in frequency domain
+5 Relationship to the arithmetic mean and the standard deviation
+6 See also
+7 References
+8 External links
+
+
+
+
+
+[edit] Definition
+The RMS value of a set of values (or a continuous-time waveform) is the square root of the arithmetic mean (average) of the squares of the original values (or the square of the function that defines the continuous waveform).
+In the case of a set of n values , the RMS value is given by:
+
+
+
+The corresponding formula for a continuous function (or waveform) f(t) defined over the interval  is
+
+
+
+and the RMS for a function over all time is
+
+
+
+The RMS over all time of a periodic function is equal to the RMS of one period of the function. The RMS value of a continuous function or signal can be approximated by taking the RMS of a series of equally spaced samples. Additionally, the RMS value of various waveforms can also be determined without calculus, as shown by Cartwright.[1]
+In the case of the RMS statistic of a random process, the expected value is used instead of the mean.
+[edit] RMS of common waveforms
+
+
+Waveform
+Equation
+RMS
+
+
+Sine wave
+
+
+
+
+Square wave
+
+
+
+
+Modified square wave
+
+
+
+
+Sawtooth wave
+
+
+
+
+Notes:
+t is time
+f is frequency
+a is amplitude (peak value)
+c&#160;% d is the remainder after floored division
+
+
+[edit] Uses
+The RMS value of a function is often used in physics and electrical engineering.
+[edit] Average electrical power
+Electrical engineers often need to know the power, P, dissipated by an electrical resistance, R. It is easy to do the calculation when there is a constant current, I, through the resistance. For a load of R ohms, power is defined simply as:
+
+
+
+However, if the current is a time-varying function, I(t), this formula must be extended to reflect the fact that the current (and thus the instantaneous power) is varying over time. If the function is periodic (such as household AC power), it is nonetheless still meaningful to talk about the average power dissipated over time, which we calculate by taking the simple average of the power at each instant in the waveform or, equivalently, the squared current. That is,
+
+
+
+
+
+ (where  denotes the mean of a function)
+
+
+
+ (as R does not vary over time it can be factored out)
+
+
+
+ (by definition of RMS)
+
+
+
+
+So, the RMS value, IRMS, of the function I(t) is the constant signal that yields the same power dissipation as the time-averaged power dissipation of the current I(t).
+We can also show by the same method that for a time-varying voltage, V(t), with RMS value VRMS,
+
+
+
+This equation can be used for any periodic waveform, such as a sinusoidal or sawtooth waveform, allowing us to calculate the mean power delivered into a specified load.
+By taking the square root of both these equations and multiplying them together, we get the equation
+
+
+
+Both derivations depend on voltage and current being proportional (i.e., the load, R, is purely resistive). Reactive loads (i.e., loads capable of not just dissipating energy but also storing it) are discussed under the topic of AC power.
+In the common case of alternating current when I(t) is a sinusoidal current, as is approximately true for mains power, the RMS value is easy to calculate from the continuous case equation above. If we define Ip to be the peak current, then:
+
+
+
+where t is time and ω is the angular frequency (ω&#160;=&#160;2π/T, whereT is the period of the wave).
+Since Ip is a positive constant:
+
+
+
+Using a trigonometric identity to eliminate squaring of trig function:
+
+
+
+
+
+
+but since the interval is a whole number of complete cycles (per definition of RMS), the sin terms will cancel, leaving:
+
+
+
+A similar analysis leads to the analogous equation for sinusoidal voltage:
+
+
+
+Where IP represents the peak current and VP represents the peak voltage. It bears repeating that these two solutions are for a sinusoidal wave only.
+Because of their usefulness in carrying out power calculations, listed voltages for power outlets, e.g. 120 V (USA) or 230 V (Europe), are almost always quoted in RMS values, and not peak values. Peak values can be calculated from RMS values from the above formula, which implies Vp&#160;=&#160;VRMS&#160;×&#160;√2, assuming the source is a pure sine wave. Thus the peak value of the mains voltage in the USA is about 120&#160;×&#160;√2, or about 170 volts. The peak-to-peak voltage, being twice this, is about 340 volts. A similar calculation indicates that the peak-to-peak mains voltage in Europe is about 650 volts.
+It is also possible to calculate the RMS power of a signal. By analogy with RMS voltage and RMS current, RMS power is the square root of the mean of the square of the power over some specified time period. This quantity, which would be expressed in units of watts (RMS), has no physical significance. However, the term "RMS power" is sometimes used in the audio industry as a synonym for "mean power" or "average power". For a discussion of audio power measurements and their shortcomings, see Audio power.
+[edit] Amplifier power efficiency
+The electrical efficiency of an electronic amplifier is the ratio of mean output power to mean input power. The efficiency of amplifiers is of interest when the energy used is significant, as in high-power amplifiers, or when the power-supply is taken from a battery, as in a transistor-radio.
+Efficiency is normally measured under steady-state conditions with a sinusoidal current delivered to a resistive load. The power output is the product of the measured voltage and current (both RMS) delivered to the load. The input power is the power delivered by the DC supply, i.e. the supply voltage multiplied by the supply current. The efficiency is then the output power divided by the input power, and it is always a number less than 1, or, in percentages, less than 100. A good radio frequency power amplifier can achieve an efficiency of 60-80%.[2]
+Other definitions of efficiency are possible for time-varying signals. As discussed, if the output is resistive, the mean output power can be found using the RMS values of output current and voltage signals. However, the mean value of the current should be used to calculate the input power. That is, the power delivered by the amplifier supplied by constant voltage VCC is
+
+
+
+where IQ is the amplifier's operating current. Clearly, because VCC is constant, the time average of Pinput depends on the time average value of Iout and not its RMS value. That is,
+
+
+
+[edit] Root mean square velocity
+Main article: Root mean square speed
+In physics, the root mean square velocity is defined as the square root of the average velocity-squared of the molecules in a gas. The RMS velocity of an ideal gas is calculated using the following equation:
+
+
+
+where R represents the Ideal Gas Constant (in this case, 8.314&#160;J/(mol·K)), T is the temperature of the gas in kelvins, and M is the molar mass of the gas in kilograms. Note that the unit of mass is kilograms.
+[edit] Root mean square error
+Main article: Root mean square error
+When two data sets---one set from theoretical prediction and the other from actual measurement of some physical variable, for instance---are compared, the RMS of the pairwise differences of the two data sets can serve as a measure how far on average the error is from 0.
+The mean of the pairwise differences does not measure the variability of the difference, and the variability as indicated by the standard deviation is around the mean instead of 0. Therefore, the RMS of the differences is a meaningful measure of the error.
+[edit] RMS in frequency domain
+The RMS can be computed also in frequency domain. The Parseval's theorem is used. For sampled signal:
+, where X(f) = FFT{x(t)}, n is number of x(t) samples.
+In this case, the RMS computed in time domain is the same as in frequency domain:
+
+[edit] Relationship to the arithmetic mean and the standard deviation
+If  is the arithmetic mean and σx is the standard deviation of a population or a waveform then:[3]
+
+
+
+From this it is clear that the RMS value is always greater than or equal to the average, in that the RMS includes the "error" / square deviation as well.
+Physical scientists often use the term "root mean square" as a synonym for standard deviation when referring to the square root of the mean squared deviation of a signal from a given baseline or fit.[citation needed] This is useful for electrical engineers in calculating the "AC only" RMS of a signal. Standard deviation being the root mean square of a signal's variation about the mean, rather than about 0, the DC component is removed (i.e. RMS(signal) = Stdev(signal) if the mean signal is 0).
+[edit] See also
+
+L2 norm
+Least squares
+Mean squared error
+Root mean square deviation
+Table of mathematical symbols
+True RMS converter
+
+[edit] References
+
+
+^ Cartwright, Kenneth V (Fall 2007), "Determining the Effective or RMS Voltage of Various Waveforms without Calculus", Technology Interface 8 (1): 20 pages, http://technologyinterface.nmsu.edu/Fall07/&#160;
+^ Terman, F.E. (1955) Electronic and Radio Engineering, McGraw Hill, New York
+^ Chris C. Bissell and David A. Chapman (1992). Digital signal transmission (2nd ed.). Cambridge University Press. p.&#160;64. ISBN&#160;9780521425575. http://books.google.com/books?id=ItJoq36hCoYC&amp;pg=PA64.&#160;
+
+
+[edit] External links
+
+A case for why RMS is a misnomer when applied to audio power
+RMS, Peak and Average for some waveforms
+A Java applet on learning RMS
+
+
+
+
+Retrieved from "http://en.wikipedia.org/wiki/Root_mean_square"
+
+
+Categories: Statistical deviation and dispersion | MeansHidden categories: Articles needing additional references from March 2010 | All articles needing additional references | All articles with unsourced statements | Articles with unsourced statements from January 2011 
+
+
+
+
+
+
+
+
+
+Personal tools
+
+Log in / create account
+
+
+
+
+
+
+Namespaces
+
+Article
+Discussion
+
+
+
+
+
+Variants
+
+
+
+
+
+
+
+
+
+
+Views
+
+Read
+Edit
+View history
+
+
+
+
+
+Actions
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Navigation
+
+
+Main page
+Contents
+Featured content
+Current events
+Random article
+Donate to Wikipedia
+
+
+
+
+
+
+
+
+Interaction
+
+
+Help
+About Wikipedia
+Community portal
+Recent changes
+Contact Wikipedia
+
+
+
+
+
+
+Toolbox
+
+
+What links here
+Related changes
+Upload file
+Special pages
+Permanent link
+Cite this page 
+
+
+
+
+
+Print/export
+
+Create a bookDownload as PDFPrintable version 
+
+
+
+
+Languages
+
+
+العربية
+Български
+Català
+Česky
+Dansk
+Deutsch
+Español
+Esperanto
+Euskara
+فارسی
+Français
+한국어
+हिन्दी
+Italiano
+עברית
+Magyar
+Nederlands
+日本語
+‪Norsk (bokmål)‬
+Polski
+Português
+Русский
+Српски / Srpski
+Suomi
+Svenska
+ไทย
+Türkçe
+Tiếng Việt
+中文
+
+
+
+
+
+
+
+
+
+ This page was last modified on 25 January 2011 at 21:08.
+Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.
+See Terms of Use for details.
+Wikipedia&reg; is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.Contact us
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
